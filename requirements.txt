@@ -1,0 +1,12 @@
+pydantic==2.7.3
+loguru==0.7.2
+requests==2.32.3
+orjson==3.10.3
+streamlit==1.36.0
+streamlit-option-menu==0.3.13
+pandas==2.2.2
+numpy==2.0.0
+streamlit-authenticator==0.3.2
+streamlit-navigation-bar==3.3.0
+tenacity==8.5.0
+streamlit-lightweight-charts==0.7.20
