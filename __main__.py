@@ -12,9 +12,6 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 
-logins_service = LoginsService()
-
-
 def main():
     st.set_page_config(page_title="ATOM", layout="wide", page_icon="⚡")
 
