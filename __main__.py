@@ -12,6 +12,9 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 
+logins_service = LoginsService()
+
+
 def main():
     st.set_page_config(page_title="ATOM", layout="wide", page_icon="⚡")
 
@@ -39,12 +42,10 @@ def main():
     with st.sidebar:
 
         options = [
-            "Reasons",
-            "Logins"
+            "Reasons"
         ]
         icons = [
-            "bi bi-activity",
-            "bi bi-key"
+            "bi bi-activity"
         ]
 
         selected = option_menu(
@@ -57,8 +58,6 @@ def main():
 
     if selected == "Reasons":
         mistakes.app()
-    elif selected == "Logins":
-        logins.app()
 
     # elif st.session_state["authentication_status"] is False:
     #     st.error('Username/password is incorrect')
